@@ -1,0 +1,42 @@
+body{
+ background-image: url(./img/n1.jpg);
+ background-size: cover;
+} 
+.box{
+    
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+.b1{
+    background-image: conic-gradient(red,yellow,green);
+}
+.b2{
+    background-image: conic-gradient(from 45deg,red,yellow,green);
+}
+.b3{
+    background-image: conic-gradient(red,yellow,green , red);
+}
+.b4{
+    background-image: conic-gradient(at 40% 50%,red 180deg,yellow 270deg,green);
+}
+.b5{
+    background-image: repeating-conic-gradient(red 0deg ,red 10deg,yellow 20deg,yellow 30deg);
+}
+.b6{
+    background-image: repeating-conic-gradient(rgba(0,0,0,0) 0deg,rgba(0,0,0,0) 20deg,rgb(0,0,0,0.5) 20deg,rgb(0,0,0,0.5) 30deg);
+background-color: red;
+}
+.b7{
+    background-image: repeating-conic-gradient(yellow 0deg,yellow 90deg,green 90deg , green 180deg);
+    background-size: 20px 20px;
+    border-radius: 0;
+}
+.b8{
+    background-image: conic-gradient(from -45deg , red 0deg, red 90deg,blue 90deg , blue 180deg, green 180deg , green 270deg, yellow 270deg , yellow 360deg);
+}
+
+
+

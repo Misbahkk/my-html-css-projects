@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(100 ,100 , 100);
+    color: #fff;
+    background-image: url(./img/n4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+}
+h1,p{
+    margin: 25px 300px;
+    float: left;
+    font-family: tahome;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 30px;
+}

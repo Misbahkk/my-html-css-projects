@@ -1,0 +1,41 @@
+CSS--> Cascding Style Sheet 
+_____________________________
+Html and CSS  have a huge hand behind the techniqe of creating a webpage..
+____________________________________________
+Using the HTML the webpage gets a shape,
+and using the CSS , the webpage gets a new and attractive look...
+____________________________________________
+HTML and CSS are Used together , witout CSS,
+we can use html, but html witout css , it can not be used.....
+
+____________________________________________
+use css ham apna web ko colr full kr skta hn 
+____________________________________________
+css time bachata ha ek hi style sheet sa multiple page bana ta hn 
+_______________________________
+INLINE CSS......
+tag ka ander css lagana
+_____________________________
+INTERNAL CSS.......
+page ka ander css lagana
+_____________________________
+EXTERNAL CSS....
+ek alag css ki file banana or use html ke file sa link krna....
+___________________________________
+<!-- ANKER TAG -->
+KISI BI file ya web ko html file sa link krna ka liya hota ha. <a herf="link">name</a>
+_______________________________________
+<!-- BAGROUND PROPERTES -->
+baground body ma lagay jata ha
+  {baground-image
+  baground-size
+  baground-repet;
+  }
+
+<!-- /* baground oragin *\ -->
+<!-- background attachment -->
+fixed;
+scroll;
+local;
+
+GRADIENTs 

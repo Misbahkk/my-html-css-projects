@@ -1,0 +1,26 @@
+body{
+    background-color: rbg(100 , 100, 100);
+}
+.box{
+    width: 800px;
+    height: 500px;
+    margin: 100px auto 0px auto;
+    border: 10px solid #000;
+    color: #000;
+    overflow: auto;
+    background-image: url(./img/pexels-photo-673648.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1,p{
+    margin: 25px 30px;
+    float: left;
+    font-family: tahome;
+}
+h1{
+    font-size: 70px;
+}
+p{
+    font-size: 30px;
+}

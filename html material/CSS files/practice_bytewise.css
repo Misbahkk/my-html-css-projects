@@ -1,0 +1,22 @@
+
+.box-inner{
+    width: 50%;
+    border: 2px solid red;
+    padding: 10px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box-inner h1{
+    font-weight: bold;
+    font-style: italic;
+    Letter-spacing: 0.2em;
+    word-spacing: 1em;
+}
+
+.box-2{
+    border: 2px dotted;
+    margin-top: 20px;
+    width: 50%;
+}

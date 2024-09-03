@@ -1,0 +1,25 @@
+body{
+    /* background-image: url(./img/download.jpg) ,url(./img/n4.jpg),url(./img/pexels-photo-1097930.jpg), url(./img/images.jpg); */
+ 
+    /* background-size: 25% 100%; */
+    /* background-position: 0% 0% ,33.33% 0%, 66.66% 0% ,  100% 0%; */
+    background-repeat: no-repeat;
+    background-image: url(./img/girl.webp) , url(./img/n5.jpg);
+    background-size: 150px,cover;
+    background-position: center left, 0px 0px;
+}
+.box{
+    width: 800px;
+    height: 380px;
+    margin: 150px auto;
+    color: #000;
+    border-radius: 20px;
+    border: 5px dashed #000;
+    background-color: rgba(0,0,0,.25);
+
+}
+.box h1 ,p{
+    margin: 20px 40px;
+    float: left;
+    text-shadow: 2px 2px 2px #000;
+}

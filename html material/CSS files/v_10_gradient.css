@@ -1,0 +1,34 @@
+body{
+    background-image: url(./img/n3.jpg);
+    background-size: cover;
+}
+.box{
+    width: 800px;
+    height: 400px;
+    margin: 150px auto 0px auto;
+    border: 10px solid #fff;
+    /* background-image: radial-gradient(red,yellow,green); */
+    /* background-image: linear-gradient(red,yellow,green); */
+    /* background-image: radial-gradient(circle ,red 30%,yellow 40%,green 50%); */
+    /* background-image: radial-gradient(circle at bottom ,red 30%,yellow 40%,green 50%); */
+    /* background-image: radial-gradient(circle at top right,red 30%,yellow 40%,green 50%);  */
+    /* background-image: radial-gradient(circle at bottom ,red 30%,yellow 40%,green 50%); */
+    /* background-image: radial-gradient(circle at 25% 25%,red 10%,yellow 40%,green 50%);  */
+    /* background-image: radial-gradient(ellipse at bottom ,red ,transparent) , radial-gradient(ellipse at top,yellow ,transparent);   */
+    /* background-image: radial-gradient(closest-corner at 30% 40% , red,yellow , green) */
+    /* background-image: radial-gradient(farthest-corner at 30% 40% , red,yellow , green) */
+    background-image: repeating-radial-gradient( red,yellow 10% , green 15%);
+
+   
+}
+h1,p{
+    margin: 25px 30px;
+    float: left;
+    font-family: tahome;
+}
+h1{
+    font-size: 60px;
+}
+p{
+    font-size: 20px;
+}

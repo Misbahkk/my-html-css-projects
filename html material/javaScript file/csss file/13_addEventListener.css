@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: arial;
+}
+div#wrapper{
+    margin: 25px auto 0px auto;
+    width: 75%;
+}
+div#wrapper h1{
+    display: block;
+    background-color: #203d3a;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+    border: 20px 20px 0px 0px;
+}
+div#wrapper img{
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    /* is line sa img black and white ho jata ha */
+     filter: grayscale(100%); 
+}
+
+/* is sa black and white img pa mouse jana sa vo colur full ho jai ga */
+/* div#wrapper img:hover{
+    filter: grayscale(0%);
+} */
+div#block1 , div#block2{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+}
+
