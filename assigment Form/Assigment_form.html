@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us Form</title>
+    <link rel="stylesheet" href="./Assigment_form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="big-circel"></span>
+      <span class="small-circle"></span>
+      <div class="contact-from">
+        <span class="circel one"></span>
+        <span class="circel two"></span>
+        <form action="index.html">
+          <h3 class="tittel">Contact Us</h3>
+          <div class="input-container">
+            <span>UserName</span>
+            <input
+              type="text"
+              name="Nmae"
+              class="input"
+              id="name"
+              placeholder="User Name"
+            />
+          </div>
+          <div class="input-container">
+            <span>Email</span
+            ><input
+              type="email"
+              name="Email"
+              class="input"
+              id="email"
+              placeholder="@gmail.com"
+            />
+          </div>
+          <div class="input-container focus">
+            <span>Phone Number</span>
+
+            <input
+              type="tel"
+              name="Phone"
+              class="input"
+              id="number"
+              placeholder="xxxx-xxxxxxx"
+              onblur="validphone()"
+            /><span id="phone"></span>
+          </div>
+          <div class="input-container">
+            <span>Submit Date</span>
+            <input type="date" name="Date" class="input date" id="date" />
+          </div>
+
+          <div class="input-container textarea">
+            <span>Message</span>
+            <textarea
+              name="message"
+              class="input"
+              id="message"
+              placeholder="Type mxg here.."
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="submit"
+            class="btn"
+            onclick="form_print()"
+          />
+        </form>
+      </div>
+    </div>
+
+    <p id="place_head"></p>
+    <p id="place_name"></p>
+    <p id="place_email"></p>
+    <p id="place_phone"></p>
+    <p id="place_date"></p>
+    <p id="place_message"></p>
+    <script src="./Assigment_form.js"></script>
+  </body>
+</html>

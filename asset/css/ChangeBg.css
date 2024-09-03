@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #f3fbff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-box{
+    width: 50%;
+    margin: auto;
+    line-height: 0;
+    background-image: url(/asset/img/background.png);
+    overflow: hidden;
+    position: relative;
+}
+.im-wrap{
+    width: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+span{
+    width: 1px;
+    height: 100%;
+    cursor: ew-resize;
+    background: #fff;
+    position: relative;
+    left: 20px;
+    top: 0;
+
+}
+.arrow{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    margin-left: -20px;
+    margin-top: -20px;
+
+}

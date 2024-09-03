@@ -1,0 +1,456 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Montserrat:wght@400;500;600;700&family=Nunito:wght@200&family=Roboto:wght@400;500;700;900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400;1,600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background-image: linear-gradient(30deg, #dbdafc, #f2f4fd, #f1f3fd);
+  background-repeat: no-repeat;
+  /* background-size: cover;
+  min-height: 100vh; */
+  display: flex;
+}
+.m-left {
+  padding-left: 5%;
+}
+
+.heading {
+  color: rgba(147, 143, 143, 0.6);
+  margin-left: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 130px;
+  font-weight: 700;
+  line-height: normal;
+  opacity: 0.5;
+}
+.heading1 {
+  color: #000;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+
+  position: relative;
+  right: 0;
+  left: 70px;
+  bottom: 130px;
+}
+.heading1::before {
+  content: "";
+  position: absolute;
+  width: 450px;
+  height: 9px;
+  background: #5956e9;
+  margin-top: 70px;
+  border-radius: 30px;
+  left: -60px;
+  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.heading1::after {
+  content: "";
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: #5956e9;
+  margin-top: 65px;
+  border-radius: 30px;
+  left: 430px;
+  box-shadow: 4px 8px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.heading2 {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 88.353%; /* 26.506px */
+}
+
+.para {
+  margin: 20px 100px;
+  color: #000;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.image-2 {
+  width: 100%;
+
+  margin: 0;
+}
+/*Our team */
+/* --------------------------- */
+.heading3 {
+  color: #000;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+
+  position: relative;
+  right: 0;
+  left: 70px;
+  bottom: 130px;
+}
+
+.mxg-icon1 {
+  /* position: relative;
+  bottom: 100px;
+  left: 10px; */
+  background-color: white;
+
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 6px 6px 0 0 gray;
+}
+.img-circle {
+  position: absolute;
+  right: 30%;
+  bottom: -150px;
+}
+.circle {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  flex-shrink: 0;
+  bottom: 150px;
+  border-radius: 50%;
+  background: radial-gradient(
+    60.57% 50.91% at 35.5% 53.14%,
+    #c0baf7,
+    #c3bcff00
+  );
+  opacity: 0.9;
+  z-index: -1;
+}
+.founder-1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+}
+.founder-1::before {
+  content: "";
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 450px;
+  height: 454px;
+  background: radial-gradient(
+    60.57% 50.91% at 35.5% 53.14%,
+    rgba(192, 186, 247, 0.7) 0%,
+    rgba(195, 188, 255, 0) 100%
+  );
+
+  right: 15;
+  top: 145%;
+  right: -180px;
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: -1;
+}
+.founder-2 {
+  color: #5956e9;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-weight: bold;
+}
+
+/* Team slider */
+/* ----------------------------------- */
+.team {
+  width: 900px;
+  display: flex;
+  overflow-x: scroll;
+}
+.team div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 15px;
+  flex: none;
+}
+.team div img {
+  width: 100%;
+
+  border: 4px solid gray;
+  box-shadow: 3px 3px 0 0 gray;
+  border-radius: 50px;
+}
+.team div img:hover {
+  box-shadow: 6px 6px 0 0 #5956e9;
+  border: 4px solid #5956e9;
+}
+.team::-webkit-scrollbar {
+  display: none;
+}
+#backbtn,
+#nextbtn {
+  cursor: pointer;
+  margin: 40px;
+}
+/* ------------------------------- */
+/* Our Mission && Vission */
+/* ----------------------------------- */
+.img-mission {
+  width: 700px;
+  height: 550px;
+}
+.para-mession {
+  margin: auto;
+  color: #000;
+  font-family: "Montserrat";
+  width: 36%;
+  height: 20%;
+  font-size: 27px;
+  font-style: normal;
+  text-align: justify;
+  line-height: 2;
+}
+.circle-2::before {
+  content: "";
+  position: absolute;
+  transform: translate(-1%, -30%);
+  /* width: 450px;
+  height: 454px; */
+  width: 636px;
+  height: 490px;
+  background: radial-gradient(
+    60.57% 50.91% at 35.5% 53.14%,
+    rgba(192, 186, 247, 0.7) 0%,
+    rgba(195, 188, 255, 0) 100%
+  );
+
+  right: 15;
+
+  right: 250px;
+  border-radius: 50%;
+  opacity: 0.9;
+  z-index: -1;
+}
+.img-circle-2 {
+  position: absolute;
+  right: 15%;
+  transform: translate(-251%, -380%);
+}
+
+/* ---------------------------------------- */
+/* Our Servicess */
+/* ----------------------------------------- */
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card {
+  border: 2px solid #5956e9;
+  border-radius: 25px;
+  box-shadow: 5px 5px 0 0 rgb(148, 145, 145);
+  background-color: #fff;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+
+  background: #fff;
+  padding: 3px;
+}
+.card-image .card-img {
+  height: 100%;
+  width: 130%;
+}
+.name {
+  font-size: 18px;
+  font-weight: 800;
+  color: #333;
+}
+.description {
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #707070;
+  text-align: justify;
+}
+.button {
+  width: 180px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 7px;
+  border: 1px solid #fbfbfb;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-color: #5956e9;
+  box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background: #265df2;
+}
+
+.swiper-navBtn {
+  color: #6e93f7;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover {
+  color: #4070f4;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-pagination-bullet {
+  background-color: #6e93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #4070f4;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+  .slide-container {
+    max-width: 9000px;
+    height: 500px;
+  }
+}
+/* Responsive heading */
+@media screen and (max-width: 1261px) {
+  .heading {
+    font-size: 80px;
+  }
+  .heading1 {
+    font-size: 50px;
+    left: 70px;
+    bottom: 110px;
+  }
+  .heading1::before {
+    width: 350px;
+  }
+  .heading1::after {
+    left: 330px;
+  }
+  .heading3 {
+    font-size: 50px;
+    left: 70px;
+    bottom: 110px;
+  }
+  .img-circle {
+    right: 20%;
+  }
+  .social-icons img {
+    width: 30px;
+  }
+
+  /* Team slider */
+  /* ----------------------------------- */
+  .team {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 848px) {
+  .triangel {
+    display: none;
+  }
+  .img-circle {
+    display: none;
+  }
+  .img-circle-2 {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 45px;
+  }
+  .heading1 {
+    font-size: 30px;
+    left: 70px;
+    bottom: 90px;
+  }
+  .heading1::before {
+    width: 250px;
+  }
+  .heading1::after {
+    left: 230px;
+  }
+  .heading3 {
+    font-size: 30px;
+    left: 70px;
+    bottom: 90px;
+  }
+  .para {
+    font-size: 12px;
+    margin: 40px 30px;
+  }
+  .mxg-icon1 {
+    display: none;
+  }
+  .team {
+    width: 350px;
+    margin-top: 40px;
+  }
+  .team div img {
+    border: 4px solid gray;
+    box-shadow: 2px 2px 0 0 gray;
+    border-radius: 30px;
+  }
+  .para-mession {
+    height: 20%;
+    font-size: 12px;
+    line-height: 1;
+  }
+  .img-mission {
+    width: 300px;
+    height: 250px;
+  }
+  .slide-content {
+    margin: 0 40px;
+  }
+  .slide-container {
+    max-width: 6000px;
+    height: 500px;
+  }
+}

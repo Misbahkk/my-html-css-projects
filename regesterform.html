@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registr</title>
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <style>
+        .contaner{
+            background-image: linear-gradient(45deg , rgb(118rgb(205, 134, 146)8, 209) , pink);
+
+
+        }
+        .anim{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+    }
+    @keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px); 
+    }
+    }
+        .register-box{
+            color: rgb(255, 255, 255);
+            align-items: center;
+            justify-items: center;
+            padding: 0 10px;
+            position:relative;
+            margin: 50px auto;
+            background-color: rgb(95, 71, 230);
+            width: 50%;
+            height: 50%;
+            border-radius: 30px;
+            font-size: 20px;
+            border: 3px solid rgb(97, 97, 100);
+            box-sizing: border-box;
+            animation-delay: .5s;
+        }
+        .anim{
+            animation-delay: 1s;
+        }
+    </style>
+</head>
+<body>
+    <div class="contaner">
+    <div class="head-logo">
+        <img width="10%" height="10%" src="./asset/img/logo.jpg" alt="">
+        <h1>DoHr Human Resources</h1>
+    </div>
+    <nav class="navbar">
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact Us</a>
+        <a href="form_task2.html">Register Now</a>
+        <a href="more.html">More</a>
+
+        <div class="float-right">
+            <a class="btn btn-primary" href="login.html">Login</a>
+            <a class="btn btn-warning" href="form_task2.html">Register</a>
+        </div>
+
+    </nav>
+    <div class="register-box anim">
+        <div class="anim">
+            <h1>YOR FORM IS REGISTER</h1>
+        </div>
+        <div class="anim">
+            <h1>Thank You!! So Much For Particpent</h1>
+        </div>
+    </div>
+</div>
+</body>
+</html>

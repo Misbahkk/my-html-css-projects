@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/ChangeBg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img-box">
+            <img src="./asset/img/transparent.png" width="100%">
+
+            <div class="im-wrap">
+            
+                <img src="./asset/img/original.jpg" id="orignalimg">
+            
+            </div>
+            
+            <span id="line">
+            
+                <img src="./asset/img/arrow.png" class="arrow">
+            
+            </span>
+        
+        </div>
+    </div>
+
+<script>
+    var imgbox =document.querySelector(".img-box");
+    var imgwrap =document.querySelector(".img-wrap");
+    var orignalimg = document.getElementById("orignalimg");
+    var line = document.getElementById("line");
+
+    orignalimg.style.width =imgbox.offsetWidth + "px";
+    var leftSpace = imgbox.offsetLeft;
+
+
+    imgbox.onmousemove = function(e) {
+
+        var boxWidth =(e.pageX -leftSpace) + "px";
+        imgwrap.style.width = boxWidth;
+        line.style.left = boxWidth;
+}
+</script>
+</body>
+</html>

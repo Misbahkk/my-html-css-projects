@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(113, 212, 106);
+}
+nav{
+    background-color: rgb(11, 11, 11);
+    color: rgb(136, 134, 134);
+    height: 55px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+}
+nav ul{
+    list-style-type: none;
+
+}
+.gameContainer{
+   
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+.line{
+    background-color: rgb(127, 74, 239);
+    height: 3px;
+    width: 0;
+    position: absolute;
+    transition: width 1s ease-in-out;
+
+}
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    color: rgb(54, 52, 52);
+}
+.box{
+  border: 2px solid rgb(127, 74, 239);
+  font-size: 8vw;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box:hover{
+    background-color: rgb(248, 170, 222);
+}
+.info{
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: rgb(155, 45, 155);
+    border: 5px solid rgb(127, 74, 239);
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.gameInfo h1{
+    font-size: 2.5rem;
+    color: rgb(155, 45, 155);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight:bolder;
+}
+.gameInfo{
+    padding: 0 34px;
+    font-family:'Times New Roman', Times, serif;
+}
+.img-box img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+#reset{
+    margin: 10px 23px;
+    width: 100px;
+    height: 50px;
+    
+    border: none;
+    background-image: linear-gradient(to right, rgb(127, 74, 239) , rgb(250, 132, 246));
+    border-radius: 35px;
+    border-top-left-radius: 0;
+    cursor: pointer;
+    font-family: 'Baloo bhsina 2';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#reset:hover{
+    border-top-left-radius: 30px;
+    background-image: linear-gradient(to left, rgb(127, 74, 239) , rgb(250, 132, 246));
+
+}
+
+@media screen and (max-width: 800px){
+    .gameContainer{
+        flex-wrap: wrap;
+    }
+    .gameInfo{
+        margin-top: 30px;
+    }
+    .gameInfo h1{
+        font-size: 1.5rem;
+    }
+    .container{
+        display: grid;
+        grid-template-rows: repeat(3 , 20vw);
+        grid-template-columns: repeat(3 , 20vw);
+    }
+}

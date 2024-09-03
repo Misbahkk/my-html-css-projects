@@ -1,0 +1,121 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.team {
+  width: 900px;
+  display: flex;
+  overflow-x: scroll;
+}
+.team div {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  grid-gap: 15px;
+  flex: none;
+}
+.team div img {
+  width: 100%;
+
+  border: 4px solid gray;
+  box-shadow: 3px 3px 0 0 gray;
+  border-radius: 50px;
+}
+.team div img:hover {
+  box-shadow: 6px 6px 0 0 #5956e9;
+  border: 4px solid #5956e9;
+}
+.team::-webkit-scrollbar {
+  display: none;
+}
+#backbtn,
+#nextbtn {
+  cursor: pointer;
+  margin: 40px;
+} */
+
+/* 2nd slide data */
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+  background-color: gray;
+}
+.silde-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card {
+  border: 3px solid blue;
+  border-radius: 25px;
+  background-color: white;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 14px;
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.card-image .card-img {
+  width: 234px;
+  height: 161px;
+  border-radius: 20px;
+  padding-top: 10px;
+}
+.card-content h2 {
+  color: #333;
+  font-size: 24px;
+  font-weight: 500px;
+  padding-bottom: 10px;
+}
+.description {
+  width: 210px;
+  height: 78px;
+  font-size: 14px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+.button {
+  width: 180px;
+  height: 60px;
+  border-radius: 7px;
+  border: 1px solid #fbfbfb;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-color: #5956e9;
+  box-shadow: 6px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #6361ed;
+} */
+
+/* Example code */
+/* ------------------------------------------ */
+/* Google Fonts - Poppins */

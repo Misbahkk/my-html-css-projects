@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./asset/css/loginToRegistration.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="from-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Regisert</button>
+            </div>
+            <div class="social-icons">
+                <img src="/asset/img/fb.png" onclick="openFb()">
+                <img src="/asset/img/tw.png" onclick="opentw()">
+                <img src="/asset/img/gp.png" onclick="openGoogel()">
+        
+               </div>
+            <form id="login" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="text" class="input-field" placeholder="Enter Pasword" required>
+                <input type="checkbox" class="check-box"> <span>Remember Password</span>
+                <button type="Submit" class="submit-btn">Log In</button>
+
+              </form>
+            <form id="register" class="input-group">
+                <input type="text" class="input-field" placeholder="User Id" required>
+                <input type="email" class="input-field" placeholder="Email Id" required>
+                <input type="password" class="input-field" placeholder="Enter Pasword" required>
+                <input type="password" class="input-field" placeholder="Conform Password" required>
+                <input type="checkbox" class="check-box"> <span>I Agree to The terms condition</span>
+                <button type="Submit" class="submit-btn">Register</button>
+
+            </form>
+        </div>
+        
+    </div>
+<script>
+    var x = document.getElementById("login");
+    var y = document.getElementById("register");
+    var z = document.getElementById("btn");
+    
+    function register() {
+      x.style.left ="-400px"
+      y.style.left ="50px"
+      z.style.left ="110px"
+        
+    }
+    function login() {
+      x.style.left ="50px"
+      y.style.left ="450px"
+      z.style.left ="0"
+        
+    }
+
+    var myfb;
+    function openFb() {
+   myfb= window.open("http://www.facebook.com");
+}
+var mytw;
+    function opentw() {
+   mytw= window.open("http://www.twitter.com");
+}
+var mygo;
+    function openGoogel() {
+   mygo= window.open("http://www.googel.com");
+}
+   
+</script>
+</body>
+</html>
